@@ -1,98 +1,58 @@
-# 🛒 TecnoStore S.A.S – Sistema de Inventario Inteligente
+# 🛒 TecnoStore S.A.S – Enterprise Inventory Engine
 
-**TecnoStore S.A.S** es una solución integral desarrollada en **Java (NetBeans IDE)** y **MySQL**, diseñada para **optimizar y automatizar la gestión de inventarios, ventas y compras en tiendas tecnológicas**.  
-
-Este sistema implementa **arquitectura MVC**, modelado **UML** y principios **SOLID**, garantizando **escalabilidad, seguridad y alto rendimiento**.  
-Su objetivo es **reducir errores operativos, agilizar procesos y ofrecer información en tiempo real** para la toma de decisiones estratégicas.  
+> **ERP Solution:** Sistema integral de gestión de recursos empresariales diseñado para la optimización de inventarios, ventas y logística, bajo estándares internacionales de calidad de software e ingeniería robusta.
 
 ---
 
-## 🎯 Objetivos del Proyecto
-- **Automatizar** el control de inventarios (entradas, salidas y actualizaciones en tiempo real).  
-- **Centralizar** la información de productos, clientes y proveedores.  
-- **Optimizar** procesos de ventas, compras, devoluciones y facturación electrónica.  
-- **Generar reportes inteligentes**: ventas por período, rotación de inventario, alertas de stock mínimo.  
-- **Cumplir estándares de calidad** ISO/IEC 25010, garantizando funcionalidad, fiabilidad, usabilidad y mantenibilidad.
+### 🏆 Ingeniería de Calidad & Arquitectura
 
-  ---
-## 🚀 Tecnologías Utilizadas
-
-- **Lenguaje:** Java (NetBeans IDE)
-- **Base de datos:** MySQL
-- **Arquitectura:** MVC
-- **Modelado:** UML (Casos de uso, actividades, clases, modelo lógico–relacional)
-- **Principios de diseño:** SOLID
-- **Gestión de calidad:** ISO/IEC 25010 – ISO/IEC 25000
-- **Control de código:** GitHub
-- **Pruebas internas:** PMD 7.16.0
-
----
-
-### 🖥️ Stack Tecnológico
-
-![Java](https://img.shields.io/badge/Java-8%2B-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![NetBeans](https://img.shields.io/badge/NetBeans-IDE-1B6AC6?style=for-the-badge&logo=apachenetbeanside&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MVC](https://img.shields.io/badge/Arquitectura-MVC-FF6F00?style=for-the-badge&logo=diagram&logoColor=white)
-![UML](https://img.shields.io/badge/UML-Diagramas-6A1B9A?style=for-the-badge&logo=diagramsdotnet&logoColor=white)
-![SOLID](https://img.shields.io/badge/Principios-SOLID-FF9800?style=for-the-badge&logo=codeforces&logoColor=white)
-![ISO/IEC 25010](https://img.shields.io/badge/ISO%2FIEC-25010-4CAF50?style=for-the-badge&logo=leaflet&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github&logoColor=white)
-![PMD](https://img.shields.io/badge/PMD-7.16.0-3C9DC5?style=for-the-badge&logo=codefactor&logoColor=white)
-
-  ---
-
-## 🚀 Funcionalidades Clave
-- **Gestión de Inventario**: registro de productos, control de stock, alertas automáticas y etiquetas con código de barras.  
-- **Módulo de Ventas**: facturación electrónica, presupuestos configurables y devoluciones con actualización automática.  
-- **Módulo de Compras y Proveedores**: órdenes de compra, recepción de mercancía, pagos y devoluciones.  
-- **Gestión de Clientes**: información completa, presupuestos y seguimiento de historial de compras.  
-- **Reportes Estadísticos**: análisis de ventas, productos más vendidos, proyecciones de demanda y cuentas por cobrar/pagar.  
-- **Seguridad y Control de Acceso**: autenticación de usuarios y permisos diferenciados (Gerente / Vendedor).  
----
-## ✨ Características destacadas
-- 📦 **Control de inventario** con alertas automáticas de stock.
-- 🧾 **Facturación y gestión de ventas** en tiempo real.
-- 📊 **Reportes inteligentes** y análisis de desempeño.
-- 🔐 **Seguridad avanzada** con control de roles y trazabilidad de operaciones.
+* **Patrón de Diseño MVC:** Implementación de arquitectura Modelo-Vista-Controlador para el desacoplamiento total entre la lógica de negocio, el modelo de datos y la interfaz de usuario.
   
----
-
-## 📈 Beneficios
-- Reducción de errores humanos en la gestión de inventarios.  
-- Procesos más rápidos y trazables.  
-- Información confiable y en tiempo real para decisiones estratégicas.  
-- Seguridad reforzada con control de roles y respaldos automáticos.  
-- Escalabilidad y adaptabilidad al crecimiento del negocio.
-
----
-## 🔍 Estándares y Buenas Prácticas
-- **ISO/IEC 25010**: evaluación de la calidad del software.  
-- **ISO/IEC 25000**: marco de referencia de calidad.  
-- **Buenas prácticas de programación en Java**: modularidad, comentarios y trazabilidad de requisitos.  
-- **Uso de UML**: trazabilidad entre requisitos, diseño y modelo de datos.  
-- **Normativa de facturación electrónica**: cumplimiento legal en el módulo de ventas.  
+* **Cumplimiento ISO/IEC 25010:** Desarrollo alineado a métricas internacionales de mantenibilidad, fiabilidad y eficiencia de desempeño.
+  
+* **Principios SOLID:** Código diseñado bajo principios de responsabilidad única y extensibilidad, facilitando la integración de módulos como Facturación Electrónica.
+  
+* **Análisis Estático de Código:** Garantía de calidad mediante el uso de **PMD 7.16.0**, asegurando un código limpio y libre de deuda técnica.
 
 ---
 
-## 📊 Requisitos Funcionales y No Funcionales
-✔ **Funcionales**:  
-- Registro de productos con código, marca, modelo, precios y stock mínimo.  
-- Registro de ventas con facturación y actualización de inventario.  
-- Procesamiento de devoluciones y presupuestos configurables.  
-- Gestión de clientes y proveedores.  
-- Reportes automáticos (ventas, más vendidos, análisis de proveedores).  
-- Control de acceso con roles de usuario.  
+## 🛠️ Stack Tecnológico
 
-✔ **No Funcionales**:  
-- Tiempo de respuesta < **2 segundos** en consultas de inventario.  
-- Interfaz intuitiva con curva de aprendizaje < **4 horas**.  
-- Compatibilidad: **Windows 10/11**, con mínimo **4 GB RAM**.  
-- Escalabilidad: hasta **50.000 productos** y **10.000 transacciones diarias**.  
-- Copias de seguridad automáticas y trazabilidad de operaciones.  
-- Código modular con comentarios > **80% de cobertura**.  
+| Lenguaje / IDE | Persistencia | Arquitectura | Estándares / Calidad |
+| :---: | :---: | :---: | :---: |
+| **Java 8+ & NetBeans** | **MySQL 5.7+** | **MVC & SOLID** | **ISO 25010 / UML** |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="50" height="50"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="50" height="50"/> | <img src="https://img.shields.io/badge/MVC-Architecture-orange?style=for-the-badge&logo=codeproject&logoColor=white" alt="MVC" height="40"/> | <img src="https://img.shields.io/badge/ISO-25010-green?style=for-the-badge&logo=checkmarx&logoColor=white" alt="ISO" height="40"/> |
 
 ---
+
+## 📂 Modelado y Diseño de Sistemas
+La robustez de TecnoStore se fundamenta en un diseño técnico riguroso documentado mediante **UML**:
+* **Diagramas de Clase:** Estructura de entidades y relaciones lógicas.
+* **Modelo Lógico-Relacional:** Esquema de base de datos optimizado para integridad referencial y alto tráfico.
+* **Trazabilidad de Requisitos:** Alineación directa entre el diseño UML y la implementación final del sistema.
+
+---
+
+## 🚀 Funcionalidades de Alto Impacto
+* 📦 **Smart Inventory:** Algoritmos de alerta de stock mínimo, control de entradas/salidas y generación de etiquetas de barras.
+* 🧾 **Módulo Transaccional:** Gestión de ventas, presupuestos configurables y devoluciones con sincronización automática de inventario.
+* 📊 **Business Intelligence:** Reportes de rotación de stock, análisis de productos más vendidos y proyecciones de demanda estratégica.
+* 🔐 **Seguridad RBAC:** Control de acceso basado en roles (Gerente/Vendedor) con trazabilidad completa de operaciones.
+
+---
+
+## 📊 Especificaciones de Rendimiento (QA)
+* **Eficiencia:** Tiempo de respuesta en consultas de inventario < **2 segundos**.
+* **Escalabilidad:** Arquitectura preparada para gestionar hasta **50,000 productos**.
+* **Mantenibilidad:** Cobertura de documentación técnica y comentarios en código > **80%**.
+* **Fiabilidad:** Respaldos automáticos y trazabilidad de operaciones para auditoría interna.
+---
+### 👤 Autor
+
+* **LinkedIn:** [linkedin.com/in/wily-rey-dba](https://www.linkedin.com/in/wily-rey-dba)
+* **Email:** [willyvillamil861@gmail.com](mailto:willyvillamil861@gmail.com)
+---
+
 ## 🗄️ Esquema Relacional en MySQL Workbench 
 
 ```MySQL
@@ -830,17 +790,3 @@ public class TecnoStoreSAS {
 }
 ```
 ---
-
-
-## ✒️ Autor
-
-**Wily Duvan Villamil Rey**  
-*Administrador de Bases de Datos Junior | Ingeniero de Desarrollo (ETL)*  
-
-📧 **Correo:** [willyvillamil861@gmail.com](mailto:willyvillamil861@gmail.com)  
-
-🌐 **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-Wily%20Rey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wily-rey-administrador-bases-datos-junior)  
-
-
-
-
